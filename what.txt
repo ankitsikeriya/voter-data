@@ -1,4 +1,4 @@
 1. What to do
 models ?
 routes ?
-db conne
+db connects
