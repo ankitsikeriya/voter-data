@@ -5,7 +5,7 @@ const router = express.Router();
 import dotenv from 'dotenv';
 dotenv.config(); 
 //multer for file upload
-import multer from 'multer';
+import multer from 'multer'; 
 // const storage = multer.diskStorage({
 //     destination: function (req, file, cb) {
 //       cb(null, 'uploads/'); // specify the destination directory
