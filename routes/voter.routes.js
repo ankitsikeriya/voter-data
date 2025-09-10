@@ -4,7 +4,7 @@ import { jwtMiddleware,generateToken } from '../Auth/jwt.js';
 const router = express.Router();  
 import dotenv from 'dotenv';   
 dotenv.config(); 
-//multer for file upload
+//multer for file upload 
 import multer from 'multer'; 
 // const storage = multer.diskStorage({
 //     destination: function (req, file, cb) {
