@@ -3,7 +3,7 @@ import Voter from './../models/voter.models.js';
 import { jwtMiddleware,generateToken } from '../Auth/jwt.js';
 const router = express.Router();  
 import dotenv from 'dotenv';     
-dotenv.config(); 
+dotenv.config();   
 //multer for file upload 
 import multer from 'multer'; 
 // const storage = multer.diskStorage({
