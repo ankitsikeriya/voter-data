@@ -1,7 +1,7 @@
 import express from 'express';
 import router from './routes/voter.routes.js';
 import db from './db/db.js'; // Ensure DB connection is established
-import dotenv from 'dotenv';  
+import dotenv from 'dotenv';    
 dotenv.config();
 const app = express();
 
