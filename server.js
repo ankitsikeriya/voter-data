@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 const app = express();
 
-//parsing
+//parsing 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
